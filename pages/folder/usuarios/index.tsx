@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React from 'react';
+import Link from 'next/link';
 const index = () => {
   return (
-    <div className = 'bg-red-500'>
+    <div >
       pagina de admin de usuarios
+    
+    <Link href = '/'>
+    <a>Ir al Home</a>
+    </Link>
     </div>
   )
 }
