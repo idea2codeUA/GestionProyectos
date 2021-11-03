@@ -8,7 +8,8 @@ const index = () => {
         <title>Usuarios | Idea to code </title>
       </Head>
       <div>pagina de admin de usuarios</div>
-      <div><i className='fas fa-house-user' /></div>
+      <div><i className='fas fa-house-user' /><i className="fas fa-snowman"></i>
+</div>
     <div>
     <Link href = '/'>
     <a className = 'cursor-pointer'>Ir al Home</a>
